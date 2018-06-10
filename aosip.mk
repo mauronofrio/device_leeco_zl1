@@ -1,5 +1,4 @@
-# Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017-2018 The The LineageOS Project
+# Copyright (C) 2018 The The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,18 +16,13 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from zl1 device
+# Inherit from zl1/device
 $(call inherit-product, device/leeco/zl1/device.mk)
 
-# Inherit some common pixel stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common aosip stuff.
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
-TARGET_GAPPS_ARCH := arm64
-USE_GCAM := true
-TARGET_DENSITY := xxhdpi
-TARGET_BOOT_ANIMATION_RES := 1080
-
-PRODUCT_NAME := aosp_zl1
+PRODUCT_NAME := aosip_zl1
 PRODUCT_DEVICE := zl1
 PRODUCT_MANUFACTURER := LeEco
 PRODUCT_BRAND := LeEco
@@ -43,3 +37,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := LeEco/ZL1_NA/le_zl1:6.0.1/WEXNAOP5802101261S/letv01261206:user/release-keys
 
 TARGET_VENDOR := leeco
+PRODUCT_BUILD_PROP_OVERRIDES += \
+DEVICE_MAINTAINERS="Gabriel Noguerales (Gabr0)"
