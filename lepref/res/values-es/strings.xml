@@ -13,10 +13,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="lepref_title">Leeco Extras</string>
+    <string name="lepref_title">Extras de LeEco</string>
 
     <!-- Bateria -->
-    <string name="battery_settings_title">Bateria</string>
-    <string name="battery_title">Ahorro de bateria</string>
-    <string name="battery_summary">Activar/desactivar el modo ahorro de bateria</string>
+    <string name="battery_settings_title">Batería</string>
+    <string name="battery_title">Ahorro de batería</string>
+    <string name="battery_summary">Activar/desactivar el modo ahorro de batería</string>
 </resources>
