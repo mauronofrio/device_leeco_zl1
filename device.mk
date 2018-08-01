@@ -77,6 +77,10 @@ PRODUCT_PACKAGES += \
     NfcNci \
     Tag
 
+# LePref settigs modules
+PRODUCT_PACKAGES += \
+    LePref
+
 # Fake logprint for fingerprint libs
 PRODUCT_PACKAGES += \
     fakelogprint
