@@ -17,7 +17,5 @@
 
     <!-- Battery -->
     <string name="battery_settings_title">Батарея</string>
-    <string name="qc_title">Быстрая зарядка</string>
-    <string name="qc_summary">Включение/выключение быстрой зарядки</string>
 
 </resources>

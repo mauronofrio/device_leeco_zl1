@@ -17,7 +17,5 @@
 
     <!-- Battery -->
     <string name="battery_settings_title">电池</string>
-    <string name="qc_title">快充</string>
-    <string name="qc_summary">开启/关闭 快充</string>
 
 </resources>

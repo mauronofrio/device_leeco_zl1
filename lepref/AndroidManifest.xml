@@ -9,11 +9,11 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <uses-sdk
-        android:minSdkVersion="21"
-        android:targetSdkVersion="21"/>
+        android:minSdkVersion="27"
+        android:targetSdkVersion="27"/>
 
     <application
-        android:label="LePref"
+        android:label="Leeco Tweaks"
         android:persistent="true">
 
         <activity
