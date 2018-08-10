@@ -57,3 +57,11 @@ service gx_fpd /system/bin/gx_fpd
     class late_start
     user system
     group system
+
+on property:persist.battery.save=1
+    write /sys/devices/system/cpu/cpu0/cpufreq/interactive/powersave_bias 1
+    write /sys/devices/system/cpu/cpu2/cpufreq/interactive/powersave_bias 1
+
+on property:persist.battery.save=0
+    write /sys/devices/system/cpu/cpu0/cpufreq/interactive/powersave_bias 0
+    write /sys/devices/system/cpu/cpu2/cpufreq/interactive/powersave_bias 0
