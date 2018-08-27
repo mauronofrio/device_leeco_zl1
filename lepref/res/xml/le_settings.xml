@@ -5,7 +5,7 @@
         android:title="@string/battery_settings_title" >
         <SwitchPreference
             android:key="battery_mode"
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:title="@string/battery_title"
             android:summary="@string/battery_summary" />
     </PreferenceCategory>
