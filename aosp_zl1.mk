@@ -19,10 +19,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from zl1/device
 $(call inherit-product, device/leeco/zl1/device.mk)
 
-# Inherit some common aosip stuff.
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
+# Inherit some common aosp stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosip_zl1
+PRODUCT_NAME := aosp_zl1
 PRODUCT_DEVICE := zl1
 PRODUCT_MANUFACTURER := LeEco
 PRODUCT_BRAND := LeEco
@@ -38,4 +38,4 @@ BUILD_FINGERPRINT := LeEco/ZL1_NA/le_zl1:6.0.1/WEXNAOP5802101261S/letv01261206:u
 
 TARGET_VENDOR := leeco
 PRODUCT_BUILD_PROP_OVERRIDES += \
-DEVICE_MAINTAINERS="Gabriel Noguerales (Gabr0)"
+DEVICE_MAINTAINERS="Mauronofrio"
